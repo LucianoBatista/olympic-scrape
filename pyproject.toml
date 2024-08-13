@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "olympic-scrapy"
+version = "0.1.0"
+description = ""
+authors = ["luba <luciano.eq@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+urlextract = "^1.9.0"
+markdown = "^3.6"
+rich = "^13.7.1"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+tqdm = "^4.66.5"
+polars = "^1.4.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
